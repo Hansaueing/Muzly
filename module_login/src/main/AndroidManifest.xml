@@ -1,2 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.muzly.panye.module_login" />
+    package="com.muzly.panye.module_login" >
+
+    <application android:allowBackup="true">
+
+        <activity android:name="com.muzly.panye.login.sign.SignUpActivity"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+
+    </application>
+
+</manifest>

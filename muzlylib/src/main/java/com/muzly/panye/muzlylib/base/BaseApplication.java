@@ -9,6 +9,9 @@ import com.squareup.leakcanary.LeakCanary;
 import com.yanzhenjie.nohttp.InitializationConfig;
 import com.yanzhenjie.nohttp.NoHttp;
 
+import me.jessyan.autosize.AutoSizeConfig;
+import me.jessyan.autosize.unit.Subunits;
+
 /**
  * Time: 2018-12-27 16:23
  * Author: payne
@@ -21,6 +24,8 @@ public class BaseApplication extends Application{
     }
 
     private void init(){
+
+        AutoSizeConfig.getInstance().getUnitsManager().setSupportSubunits(Subunits.PT);
 
         /*
         utilcode

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#708090">
+    
+    <ImageView
+        android:layout_width="178pt"
+        android:layout_height="178pt"
+        android:layout_marginTop="144pt"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/module_login_signup_logo_landing"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18pt"
+        android:text="@string/app_describe_1"
+        android:textColor="@color/res_pure_white"
+        android:textSize="24pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_describe_2"
+        android:textColor="@color/res_pure_white"
+        android:textSize="24pt"/>
+
+    <Button
+        android:id="@+id/btn_module_login_sign_up"
+        android:layout_width="229pt"
+        android:layout_height="43pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110pt"
+        android:text="@string/sign_up"
+        android:textColor="@color/res_pure_white"
+        android:textSize="15pt"
+        android:background="@drawable/res_btn_shape"/>
+
+    <Button
+        android:id="@+id/btn_module_login_sign_in"
+        android:layout_width="229pt"
+        android:layout_height="43pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19pt"
+        android:text="@string/sign_in"
+        android:textColor="@color/res_pure_white"
+        android:textSize="15pt"
+        android:background="@drawable/res_btn_shape"/>
+
+
+</LinearLayout>

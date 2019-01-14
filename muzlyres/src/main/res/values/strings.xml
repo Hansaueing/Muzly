@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">muzlyres</string>
+
+    <string name="app_describe_1">The No 1 Muslim</string>
+    <string name="app_describe_2">Dating Place</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
 </resources>
