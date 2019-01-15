@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/module_login_launch_shape">
+    android:background="@drawable/res_green_shadow_shape">
 
     <ImageView
         android:layout_width="208pt"

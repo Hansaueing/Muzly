@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="49pt"
+    android:background="@drawable/res_green_shadow_shape">
+
+    <ImageView
+        android:id="@+id/iv_res_green_shadow_arrow_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="20pt"
+        android:layout_centerVertical="true"
+        android:src="@drawable/res_arrow_back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18pt"
+        android:textColor="@color/res_pure_white"
+        android:text="@string/sign_up"/>
+
+</RelativeLayout>

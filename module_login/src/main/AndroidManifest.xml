@@ -6,6 +6,9 @@
         <activity android:name="com.muzly.panye.login.sign.SignUpActivity"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
 
+        <activity android:name="com.muzly.panye.login.signupinfo.SignUpInfoActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+
     </application>
 
 </manifest>

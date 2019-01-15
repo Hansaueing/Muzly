@@ -5,4 +5,17 @@
     <string name="app_describe_2">Dating Place</string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign In</string>
+
+    <string name="email_address">Email address:</string>
+    <string name="nick_name">Nickname:</string>
+    <string name="nick_name_hint">3-20 characters</string>
+    <string name="gender">Gender:</string>
+
+    <string name="women">Woman</string>
+    <string name="man">Man</string>
+
+    <string name="age">Age:</string>
+    <string name="age_hint">Choose your age</string>
+
+
 </resources>

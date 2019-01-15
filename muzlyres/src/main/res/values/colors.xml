@@ -4,4 +4,13 @@
     <color name="res_end_color">#009E63</color>
     
     <color name="res_pure_white">#FFFFFF</color>
+    <color name="res_pure_gray">#EFEFF4</color>
+    <color name="res_word_color">#333333</color>
+
+
+
+    <color name="res_border_color">#DDDDDD</color>
+    <color name="res_word_green_color">#089F66</color>
+    <color name="res_word_gender_color">#666666</color>
+
 </resources>
