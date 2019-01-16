@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="296pt"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/res_image_selector_background">
+
+    <LinearLayout
+        android:layout_width="296pt"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/res_image_selector_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48pt"
+            android:background="@drawable/res_image_select_showad_shape"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18pt"
+                android:text="@string/select_photo"
+                android:textColor="@color/res_pure_white" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_image_select_dialog_take_photo"
+            android:layout_width="229pt"
+            android:layout_height="43pt"
+            android:layout_marginTop="30pt"
+            android:text="@string/take_photo"
+            android:textColor="@color/res_image_select_start_color"
+            android:textAllCaps="false"
+            android:textSize="15pt"
+            android:background="@drawable/res_btn_white_shape"/>
+
+        <Button
+            android:id="@+id/bt_image_select_dialog_choose_from_library"
+            android:layout_width="229pt"
+            android:layout_height="43pt"
+            android:layout_marginTop="17pt"
+            android:text="@string/choose_library_photo"
+            android:textColor="@color/res_image_select_start_color"
+            android:textAllCaps="false"
+            android:textSize="15pt"
+            android:background="@drawable/res_btn_white_shape"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25pt"
+            android:layout_marginBottom="24pt"
+            android:text="@string/select_photo_warn"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

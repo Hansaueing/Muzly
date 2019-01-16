@@ -14,6 +14,7 @@
         android:orientation="vertical">
 
         <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/riv_module_login_sign_up_info_photo"
             android:layout_width="91pt"
             android:layout_height="91pt"
             android:layout_marginTop="35pt"
@@ -40,11 +41,13 @@
                     android:textSize="13pt" />
 
                 <EditText
+                    android:id="@+id/ed_module_login_sign_up_info_email"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="14pt"
                     android:background="@null"
-                    android:padding="4pt" />
+                    android:padding="4pt"
+                    android:textSize="15pt" />
             </LinearLayout>
 
             <TextView
@@ -66,13 +69,14 @@
                     android:textSize="13pt" />
 
                 <EditText
+                    android:id="@+id/ed_module_login_sign_up_info_nickname"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="14pt"
                     android:background="@null"
                     android:hint="@string/nick_name_hint"
-                    android:textSize="12pt"
-                    android:padding="4pt" />
+                    android:padding="4pt"
+                    android:textSize="12pt" />
             </LinearLayout>
 
             <TextView
@@ -94,6 +98,7 @@
                     android:textSize="13pt" />
 
                 <RelativeLayout
+                    android:id="@+id/rl_module_login_sign_up_info_age"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="14pt">
@@ -114,8 +119,8 @@
                         android:layout_toLeftOf="@id/iv_1"
                         android:gravity="center_vertical"
                         android:paddingLeft="4pt"
-                        android:textSize="12pt"
-                        android:text="@string/age_hint" />
+                        android:text="@string/age_hint"
+                        android:textSize="12pt" />
 
                 </RelativeLayout>
 
@@ -147,25 +152,33 @@
                     android:padding="4pt">
 
                     <TextView
+                        android:id="@+id/tv_module_login_sign_up_info_gender_woman"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:drawableLeft="@drawable/res_gender_icon_sel"
                         android:drawablePadding="4pt"
+                        android:paddingTop="9pt"
+                        android:paddingBottom="9pt"
                         android:text="@string/women"
-                        android:textSize="12pt"
-                        android:textColor="@color/res_word_green_color" />
+                        android:textColor="@color/res_word_green_color"
+                        android:textSize="12pt" />
 
                     <TextView
+                        android:id="@+id/tv_module_login_sign_up_info_gender_man"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginLeft="23pt"
                         android:drawableLeft="@drawable/res_gender_icon_sel_off"
                         android:drawablePadding="4pt"
+                        android:paddingLeft="15pt"
+                        android:paddingTop="9pt"
+                        android:paddingRight="15pt"
+                        android:paddingBottom="9pt"
                         android:text="@string/man"
-                        android:textSize="12pt"
-                        android:textColor="@color/res_word_gender_color" />
+                        android:textColor="@color/res_word_gender_color"
+                        android:textSize="12pt" />
 
                 </LinearLayout>
 
@@ -175,6 +188,139 @@
                 android:layout_width="match_parent"
                 android:layout_height="1pt"
                 android:background="@color/res_border_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44pt">
+
+                <TextView
+                    android:layout_width="113pt"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="14pt"
+                    android:text="@string/religiosity"
+                    android:textColor="@color/res_word_color"
+                    android:textSize="13pt" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14pt">
+
+                    <ImageView
+                        android:id="@+id/iv_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="18pt"
+                        android:src="@drawable/res_arrow_more" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/iv_2"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="4pt"
+                        android:text="@string/religiosity_hint"
+                        android:textSize="12pt" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44pt"
+            android:layout_marginTop="18pt"
+            android:background="@drawable/res_base_border">
+
+            <TextView
+                android:layout_width="113pt"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="14pt"
+                android:text="@string/Location"
+                android:textColor="@color/res_word_color"
+                android:textSize="13pt" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="14pt">
+
+                <ImageView
+                    android:id="@+id/iv_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="18pt"
+                    android:src="@drawable/res_arrow_more" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/iv_3"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4pt"
+                    android:text="@string/Location_hint"
+                    android:textSize="12pt" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_module_login_sign_up_info_continue"
+            android:layout_width="229pt"
+            android:layout_height="43pt"
+            android:layout_marginTop="32pt"
+            android:background="@drawable/res_btn_unpressed_shape"
+            android:text="@string/Continue"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36pt"
+            android:text="@string/by_continuing"
+            android:textColor="@color/res_word_by_continuing_color"
+            android:textSize="12pt" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_module_login_sign_up_info_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms"
+                android:textColor="@color/res_word_by_continuing_color"
+                android:textSize="12pt" />
+
+            <TextView
+                android:id="@+id/tv_module_login_sign_up_info_and"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/res_word_by_continuing_color"
+                android:textSize="12pt" />
+
+            <TextView
+                android:id="@+id/tv_module_login_sign_up_info_privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy"
+                android:textColor="@color/res_word_by_continuing_color"
+                android:textSize="12pt" />
 
         </LinearLayout>
 

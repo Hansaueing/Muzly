@@ -7,10 +7,18 @@
     <color name="res_pure_gray">#EFEFF4</color>
     <color name="res_word_color">#333333</color>
 
-
+    <color name="res_btn_unpress_start_color">#909090</color>
+    <color name="res_btn_unpress_end_color">#A7A6A6</color>
 
     <color name="res_border_color">#DDDDDD</color>
     <color name="res_word_green_color">#089F66</color>
     <color name="res_word_gender_color">#666666</color>
+
+    <color name="res_word_by_continuing_color">#999999</color>
+    <color name="res_background_transparent">#FFFFFFFF</color>
+
+    <color name="res_image_select_start_color">#098E5B</color>
+    <color name="res_image_select_end_color">#00834E</color>
+
 
 </resources>

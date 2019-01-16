@@ -17,5 +17,22 @@
     <string name="age">Age:</string>
     <string name="age_hint">Choose your age</string>
 
+    <string name="religiosity">My religiosity:</string>
+    <string name="religiosity_hint">Choose your religiosity</string>
+
+    <string name="Location">Location:</string>
+    <string name="Location_hint">Choose your current location</string>
+
+    <string name="Continue">Continue</string>
+    <string name="by_continuing">By continuing, you agree to our </string>
+
+    <string name="terms"><u>Terms</u></string>
+    <string name="privacy"><u>Privacy Policy</u></string>
+
+    <string name="select_photo">Select a Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_library_photo">Choose from Library</string>
+    <string name="select_photo_warn">No porn, violence, or kid photos. </string>
+
 
 </resources>
